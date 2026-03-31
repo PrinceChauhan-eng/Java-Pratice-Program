@@ -22,6 +22,7 @@ public static int Multi(int a , int b){
        // int sum = Calsum(a,b);
        // System.out.println(sum);
 
+        
         int mul =Multi(a,b);
         System.out.println("Sum of A and B is "+mul);
     }
