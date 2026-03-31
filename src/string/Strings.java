@@ -10,7 +10,7 @@ public class Strings {
         String name3 = name1 +" "+ name2;
         System.out.println(name3);
         //ChartAt
-        String name = "PRINCE";
+        String name = "PRINCE Chauhan";
         System.out.println(name.charAt(2));
         System.out.println(name.charAt(5));
         //Length

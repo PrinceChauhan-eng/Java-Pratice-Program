@@ -51,6 +51,7 @@ public class Loops {
         System.out.println("Enter Table Number :");
         int n = sc.nextInt();
        /* int sum = 0 ;
+
         for (i=1;i<=n;i++){
             sum = sum + i;
         }
