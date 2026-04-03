@@ -1,6 +1,4 @@
-package string;
-
-import javax.xml.transform.Source;
+package Strings;
 
 public class Strings {
     public static void main(String[] args){
@@ -10,7 +8,7 @@ public class Strings {
         String name3 = name1 +" "+ name2;
         System.out.println(name3);
         //ChartAt
-        String name = "PRINCE";
+        String name = "PRINCE Chauhan";
         System.out.println(name.charAt(2));
         System.out.println(name.charAt(5));
         //Length
