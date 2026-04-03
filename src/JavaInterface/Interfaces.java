@@ -1,21 +1,16 @@
 package JavaInterface;
 
-interface testInterface {
+interface TestInterface {
     final int a = 10;
 
-    void display();
-}
+    void display(); // By Default it's a Public Absract Method
 
-class TestClass implements testInterface {
-    public void display() {
-        System.out.println("This is Interface");
+    default void show(){
+        System.out.println("This is Default Method");
+    }
+
+    static void print(){
+        System.out.println("This is Static  Method");
     }
 }
 
-class Main {
-    static void main(String[] args) {
-        TestClass t = new TestClass();
-        t.display();
-        System.out.println(t.a);
-    }
-}
