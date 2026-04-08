@@ -1,6 +1,6 @@
 package AccessModifiers;
 
-public class AccessModifierMain {
+public class Main {
     static void main() {
         PrivateAccessModifiers am=new PrivateAccessModifiers();
         am.setName("Hello");

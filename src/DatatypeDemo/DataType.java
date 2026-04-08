@@ -1,6 +1,6 @@
 package DatatypeDemo;
 
-public class DataTypeDemo {
+public class DataType {
     public static void main(String[] args) {
         // -----------------Primitive Data type-------------------------
         byte b = 100;  // 1 bytes
@@ -13,10 +13,11 @@ public class DataTypeDemo {
         boolean flag = true;
 
         //-----------------Non - Primitive Data type-----------------------
-        String name = "Hello world";
-        int[] arr = {1, 2, 3, 4, 5};
-        Integer Wrapint = Integer.valueOf(50);
-        StringBuilder sb = new StringBuilder("Java");
+        String name = "Hello world"; //String
+
+        int[] arr = {1, 2, 3, 4, 5};// Array
+
+        StringBuilder sb = new StringBuilder("Java"); //String Builder
 
         //------------------OUTPUT---------------------------------------------
         System.out.println("byte"+b);
@@ -33,7 +34,6 @@ public class DataTypeDemo {
             System.out.println(num + " ");
         }
         System.out.println();
-        System.out.println("Wrapper class"+Wrapint);
         System.out.println("String Builder"+sb);
     }
 

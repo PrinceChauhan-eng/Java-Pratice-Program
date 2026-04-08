@@ -1,6 +1,6 @@
 package Arrays;
 
-public class ReturningArrayMethod {
+public class ArrayMethod {
     public static int[] m1(){
         return new int[] {1,2,3,4,5};
     }

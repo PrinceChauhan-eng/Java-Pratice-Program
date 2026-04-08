@@ -1,6 +1,6 @@
-import java.util.Scanner;
+package Variables;
 
-public class Variables {
+public class Variables1 {
     // instance variable ( belong to each object)
     int instance = 10;
 
@@ -17,10 +17,10 @@ public class Variables {
 
     public static void main(String[] args){
         // Creating Object
-        Variables vb = new Variables();
+        Variables1 vb = new Variables1();
         vb.showVaribale();
         // Accessing static variable direct using class name
-        System.out.println("Accessing static Variable "+Variables.name);
+        System.out.println("Accessing static Variable "+ Variables1.name); // Variables1 is Class name
 
     }
 }

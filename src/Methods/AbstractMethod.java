@@ -8,13 +8,12 @@ abstract class Abstarcts{
     }
 }
 class Methods1 extends Abstarcts{
-    @Override
     void name1(String name1){
         System.out.println(name1);
     }
     public static void main(String[] args){
-//        Methods1 abs = new Methods1();
-//        abs.name1("Hello");
-//        System.out.println("Name : "+abs);
+        Methods1 abs = new Methods1();
+        abs.name1("Hello");
+        System.out.println("Name : "+abs);
     }
 }

@@ -31,7 +31,7 @@ public class Loops {
         System.out.println("Enhance For Loop");
         int [] num ={100,200,300,400,500};
         for (int k : num){
-            System.out.println("num ="+j);
+            System.out.println("num ="+k);
 
         }
 

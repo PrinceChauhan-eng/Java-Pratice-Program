@@ -6,7 +6,7 @@ public class Dog {
     int age ;
     String Colour;
 
-    public Dog(String name,String Breed,int age,String Colour){
+    Dog(String name,String Breed,int age,String Colour){
         this.name=name;
         this.Breed=Breed;
         this.age=age;
