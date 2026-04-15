@@ -1,6 +1,6 @@
 package Abstract;
 
-abstract class Car {
+abstract class Cars {
     abstract void engine();
 
     void fule() {
@@ -8,7 +8,7 @@ abstract class Car {
     }
 }
 
-class Sedan extends Car {
+class Sedan extends Cars {
     void engine() {
         System.out.println("Engine Start");
     }

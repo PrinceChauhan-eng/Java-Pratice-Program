@@ -1,5 +1,5 @@
-package JavaClass;
-import java.util.*;
+package Class;
+
 public class Main {
     static void main(String[] args) {
         Dog dg = new Dog("Rocky","Rotewiler",5,"Black");

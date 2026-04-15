@@ -1,4 +1,4 @@
-package JavaClass;
+package Class;
 
 public class Dog {
     String name;

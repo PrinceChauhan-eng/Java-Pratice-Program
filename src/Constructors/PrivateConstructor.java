@@ -1,6 +1,4 @@
-package JavaConstructors;
-
-import java.util.logging.SocketHandler;
+package Constructors;
 
 class PrivateConstructor {
    private PrivateConstructor(){

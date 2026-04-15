@@ -1,4 +1,4 @@
-package DatatypeDemo;
+package Datatype;
 
 public class DataType {
     public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class DataType {
         System.out.println("byte"+b);
         System.out.println("short"+s);
         System.out.println("long"+l);
-        System.out.println("double"+d);
+        System.out.println("double "+d);
         System.out.println("int"+x);
         System.out.println("boolen"+flag);
         System.out.println("Float"+f);

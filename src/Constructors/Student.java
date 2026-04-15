@@ -1,6 +1,4 @@
-package JavaConstructors;
-
-import java.util.SortedMap;
+package Constructors;
 
 class Student {
     String name;

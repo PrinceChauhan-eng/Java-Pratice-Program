@@ -1,4 +1,4 @@
-package JavaConstructors;
+package Constructors;
 
 class CopyConstructor {
     String name;
