@@ -109,16 +109,16 @@ public class Question {
          */
 
         //Half Pyramid pattern
-        int o = 4;
-        for (int i = 1; i <= o; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print("*");
-
-            }
-            System.out.println(" ");
-
-        }
-
+//        int o = 4;
+//        for (int i = 1; i <= o; i++) {
+//            for (int j = 1; j <= i; j++) {
+//                System.out.print("*");
+//
+//            }
+//            System.out.println(" ");
+//
+//        }
+//
 
 
         //Reverse Half Pyramid pattern
@@ -159,30 +159,28 @@ public class Question {
 
          */
         // inverted Half Pyramid with number
-        /*int n = 5;
-        for (int i=n+1;i>=1;i--){
-            for (int j =1;j<=i-1;j++){
-                System.out.print(j+" ");
+//        int n = 5;
+//        for (int i=n+1;i>=1;i--){
+//            for (int j =1;j<=i-1;j++){
+//                System.out.print(j+" ");
+//
+//            }
+//            System.out.println();
+//        }
 
-            }
-            System.out.println();
-        }
 
-         */
+//        int n = 5;
+//        int num = 1;
+//        for (int i = 1; i <= n; i++) {
+//
+//            for (int j = 1; j <= i; j++) {
+//                System.out.print(num + " ");
+//                num++;
+//            }
+//            System.out.println();
+//        }
 
-        /*
-        int n = 5;
-        int num = 1;
-        for (int i = 1; i <= n; i++) {
 
-            for (int j = 1; j <= i; j++) {
-                System.out.print(num + " ");
-                num++;
-            }
-            System.out.println();
-        }
-
-         */
         //0-1 triangle
         /*
         int n = 5;
@@ -244,7 +242,7 @@ public class Question {
 
             */
         //Solid Rhombus
-        /*
+       /*
             int m = 4;
             for (int i = m;i>=1;i--){
                 for(int j =1;j<=i;j++){
@@ -256,19 +254,21 @@ public class Question {
                 System.out.println();
             }
 
-         */
-        //Number pyramid
-        int n = 4;
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n - i; j++) {
-                System.out.print(" ");
-            }
-            for (int j = 1; j <= i; j++) {
-                System.out.print(j + " ");
-            }
-            System.out.println();
+        */
 
-        }
+
+//        //Number pyramid
+//        int n = 4;
+//        for (int i = 1; i <= n; i++) {
+//            for (int j = 1; j <= n - i; j++) {
+//                System.out.print(" ");
+//            }
+//            for (int j = 1; j <= i; j++) {
+//                System.out.print(j + " ");
+//            }
+//            System.out.println();
+//
+////        }
         //palindromic Pattern
         int m = 4;
         for (int i = 1; i <= m; i++) {
@@ -285,50 +285,48 @@ public class Question {
 
         }
 
-        //Diamond Pattern
-        int p = 4;
-        //First Half Diamond
-        for (int i = 1; i <= p; i++) {
-            for (int j = 1; j <= p - i; j++) {
-                System.out.print(" ");
-            }
-            for (int j = i; j >= 1; j--) {
-                System.out.print("*");
-            }
-            for (int j = 2; j <= i; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
+            //Diamond Pattern
+//        int p = 4;
+//        //First Half Diamond
+//        for (int i = 1; i <= p; i++) {
+//            for (int j = 1; j <= p - i; j++) {
+//                System.out.print(" ");
+//            }
+//            for (int j = i; j >= 1; j--) {
+//                System.out.print("*");
+//            }
+//            for (int j = 2; j <= i; j++) {
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//        //Second Half Diamond
+//        for (int i = p; i >= 1; i--) {
+//            for (int j = 1; j <= p - i; j++) {
+//                System.out.print(" ");
+//            }
+//            for (int j = i; j >= 1; j--) {
+//                System.out.print("*");
+//            }
+//            for (int j = 2; j <= i; j++) {
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//
+//        int l = 4;
+//        for (int i = 1; i <= l; i++) {
+//            for (int k=1;k<=l-i;k++){
+//                System.out.print(" ");
+//            }
+//            for (int j=1;j<=2*i-1;j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//
         }
-        //Second Half Diamond
-        for (int i = p; i >= 1; i--) {
-            for (int j = 1; j <= p - i; j++) {
-                System.out.print(" ");
-            }
-            for (int j = i; j >= 1; j--) {
-                System.out.print("*");
-            }
-            for (int j = 2; j <= i; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-
-        int l = 4;
-        for (int i = 1; i <= l; i++) {
-            for (int k=1;k<=l-i;k++){
-                System.out.print(" ");
-            }
-            for (int j=1;j<=2*i-1;j++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-
-
     }
-}
-
 
 
 
