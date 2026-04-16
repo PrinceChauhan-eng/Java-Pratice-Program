@@ -6,5 +6,8 @@ public class Main {
         am.setName("Hello");
         am.setAge(25);
         System.out.println("Name : "+am.getName() + " Age : "+am.getAge());
+
+        ProtectedAccessModifier pa = new ProtectedAccessModifier();
+        pa.show();
     }
 }

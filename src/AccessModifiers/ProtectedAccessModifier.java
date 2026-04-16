@@ -6,6 +6,7 @@ public class ProtectedAccessModifier {
     protected int speed;
 
     public void show(){
-        System.out.println("Hello java");
+        speed =100;
+        System.out.println("Hello java" + speed);
     }
 }
