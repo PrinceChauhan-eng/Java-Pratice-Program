@@ -18,13 +18,13 @@ public class ArrayLists {
        int Elements= list.get(0);
        System.out.println(Elements);
 
-       // Set Element
+       // Set Element  or Update
        list.set(1,4);  // We are updating a List index Value
        list.set(2,9);
        list.set(3,2);
        System.out.println(list);
 
-       // Delete Elements
+       // Delete Elements or Remove
        list.remove(4);
        System.out.println(list);
 

@@ -5,5 +5,6 @@ public class IntegerToString {
         int a =1523;
         String name =String.valueOf(a);
         System.out.println(name);
+
     }
 }

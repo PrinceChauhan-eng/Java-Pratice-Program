@@ -27,7 +27,7 @@ public class JavaExecrise {
     }
 
     //Write a function which takes in 2 numbers and returns the greater of those two.
-    public static void printGreaternumber(int a, int b) {
+    public void printGreaternumber(int a, int b) {
         if (a > b) {
             System.out.println(a);
         } else {
