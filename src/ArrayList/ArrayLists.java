@@ -4,44 +4,99 @@ import java.util.Collections;
 
 public class ArrayLists {
    public static void main(String[] args){
-       ArrayList<Integer> list = new ArrayList<Integer>();
-
-       // Add Elements
-       list.add(1);
-       list.add(3);
-       list.add(5);
-       list.add(9);
-       list.add(11);
+       ArrayList list = new ArrayList();
+       list.add(100);
+       list.add(200);
+       list.add(300);
        System.out.println(list);
 
-       // Get Elements
-       int Elements= list.get(0);
-       System.out.println(Elements);
+       ArrayList al2 = new ArrayList();
+       al2.add("aaa");
+       al2.add("bbb");
+       al2.add("ccc");
+       al2.add("ddd");
+       al2.add(100);
+       al2.add(300);
 
-       // Set Element  or Update
-       list.set(1,4);  // We are updating a List index Value
-       list.set(2,9);
-       list.set(3,2);
+       list.addAll(al2);
        System.out.println(list);
 
-       // Delete Elements or Remove
-       list.remove(4);
+       list.remove(1);
        System.out.println(list);
 
-       // Size Elements
-       int size = list.size();
-       System.out.println(size);
+       list.remove(al2);
 
-       // For Loops
-       for (int i = 0;i<size;i++)
-       {
-           System.out.print(list.get(i)+" ");
-       }
-       System.out.println();
+       list.set(2,"Prince");
 
-       //Sorting Elements
-       Collections.sort(list);
-       System.out.println(list);
+       System.out.println(list.get(5));
+       System.out.println(list.indexOf("Prince"));
+       System.out.println(list.size());
+       System.out.println(list.contains("Prince"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//       ArrayList<Integer> list = new ArrayList<Integer>();
+//
+//       // Add Elements
+//       list.add(1);
+//       list.add(3);
+//       list.add(5);
+//       list.add(9);
+//       list.add(11);
+//       System.out.println(list);
+//
+//       // Get Elements
+//       int Elements= list.get(0);
+//       System.out.println(Elements);
+//
+//       // Set Element  or Update
+//       list.set(1,4);  // We are updating a List index Value
+//       list.set(2,9);
+//       list.set(3,2);
+//       System.out.println(list);
+//
+//       // Delete Elements or Remove
+//       list.remove(4);
+//       System.out.println(list);
+//
+//       // Size Elements
+//       int size = list.size();
+//       System.out.println(size);
+//
+//       // For Loops
+//       for (int i = 0;i<size;i++)
+//       {
+//           System.out.print(list.get(i)+" ");
+//       }
+//       System.out.println();
+//
+//       //Sorting Elements
+//       Collections.sort(list);
+//       System.out.println(list);
 
 
     }
