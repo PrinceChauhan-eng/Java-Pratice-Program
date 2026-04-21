@@ -1,6 +1,5 @@
 package Collection;
 
-import ArrayList.ArrayLists;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -23,7 +22,7 @@ class ItrDemo{
     }
 }
 
-class ListItr{
+class ListItr {
     public static void main(String[] args) {
         List l = new ArrayList();
         l.add(10);
@@ -42,31 +41,11 @@ class ListItr{
 
         System.out.println("---------------------------------------");
 
-        while (itr.hasPrevious()){
+        while (itr.hasPrevious()) {
             System.out.println(itr.previous());
         }
         itr.set(200);
         System.out.println(l);
-
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-public class Cursor {
-    public static void main(String[] args){
 
     }
 }
