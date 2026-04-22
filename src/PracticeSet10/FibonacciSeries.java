@@ -1,6 +1,7 @@
 package PracticeSet10;
 
-public class FibonacciSeries {
+public class
+FibonacciSeries {
     static void main(String[] args) {
         int num = 10;
         int no1 = 0, no2 = 1;
