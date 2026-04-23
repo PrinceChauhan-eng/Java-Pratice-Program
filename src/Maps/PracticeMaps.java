@@ -39,7 +39,5 @@ public class PracticeMaps {
         System.out.println("Print Key : "+map.keySet());
         System.out.println("Print Value: "+map.values());
 
-
-
     }
 }
