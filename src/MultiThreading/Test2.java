@@ -19,7 +19,7 @@ class Test5 extends Thread{
 }
 
 public class Test2 extends Thread {
-    //Performing Multiple task from single thread
+    //Performing Multiple task from multiple thread
 
     public void run() {
         System.out.println("Thread created");

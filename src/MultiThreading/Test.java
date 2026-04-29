@@ -9,7 +9,7 @@ public class Test extends Thread{
 
 
     static void main(String[] args) {
-        Test t = new Test();
+        Test6 t = new Test6();
         t.start();
         t.start();
     }
