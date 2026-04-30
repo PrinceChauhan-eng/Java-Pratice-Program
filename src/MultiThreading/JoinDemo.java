@@ -4,7 +4,7 @@ public class JoinDemo extends Thread{
     static Thread  mainThread;
     public void run(){
          try {
-             mainThread.join();
+             //mainThread.join();
              for (int i = 1 ; i<=5;i++){
                  System.out.println(Thread.currentThread().getName()+" _ "+i);
                  Thread.sleep(1000);
@@ -20,7 +20,7 @@ public class JoinDemo extends Thread{
         JoinDemo jd = new JoinDemo();
         mainThread = Thread.currentThread();
         jd.start();
-//        jd.join();
+        jd.join();
         try {
             for (int i = 1 ; i<=5;i++){
                 System.out.println(Thread.currentThread().getName()+" _ "+i);

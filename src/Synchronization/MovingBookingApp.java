@@ -31,7 +31,6 @@ public class MovingBookingApp extends Thread {
         prince.setName("Prince");
         prince.start();
 
-
         MovingBookingApp pankaj = new MovingBookingApp();
         pankaj.seats=7;
         pankaj.setName("Pankaj");
