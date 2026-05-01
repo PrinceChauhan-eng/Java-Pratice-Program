@@ -3,7 +3,7 @@ package MultiThreading;
 class MyThread extends Thread{
     public void run(){
         System.out.println(getName()+" is Running");
-        for (int i = 0 ; i<=5;i++){
+        for (int i = 1 ; i<=5;i++){
             System.out.println(getName()+ " Count : "+ i);
         }
         System.out.println(getName() + " Finished Execution");
